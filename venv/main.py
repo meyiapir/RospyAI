@@ -6,7 +6,7 @@ from botmainc import *
 from time import sleep as sl
 from guipass import *
 from update_check import *
-#a = 100
+
 # ___________________________________________________________________________________________
 def hello():
     print(' \n'*20)

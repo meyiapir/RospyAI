@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.3)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/speechs.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/speechs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TGbot/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/TGbot/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +80,7 @@
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.botmainc">
+  <component name="RunManager" selected="Python.main">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RospyAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -261,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635893754018</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="RospyAi commit(0.3)">
+      <created>1635894076270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635894076270</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

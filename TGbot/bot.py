@@ -46,7 +46,7 @@ def mainbot():
 
     executor.start_polling(dp, skip_updates=True)
 
-mainbot()
+# mainbot()
 # texting_rep = text_a
 # print('aaaaaaaaaaaa', texting_rep)
 
