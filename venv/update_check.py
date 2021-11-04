@@ -42,14 +42,14 @@ def upd_check_mod():
         text_up_ch = 'You using the [ LATEST ] version of RospyAI: '
         qwerty = True
         c = (current_time + ' | LOG: ' + text_up_ch + app_version + '\n')
-        f2 = open('up_ch_log.log', 'a')
+        f2 = open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\venv\\up_ch_log.log', 'a')
         f2.write(c)
         f2.close()
         print('You using the [ LATEST ] version of RospyAI:', app_version)
     else:
         text_up_ch = 'You using an [ OUTDATED ] version of RospyAI: '
         c = (current_time + ' | LOG: ' + text_up_ch + app_version + '\n')
-        f2 = open('up_ch_log.log', 'a')
+        f2 = open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\venv\\up_ch_log.log', 'a')
         f2.write(c)
         f2.close()
         print(' ')
