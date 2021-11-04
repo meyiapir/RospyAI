@@ -27,12 +27,12 @@ def upd_check_mod():
 
     f = urllib.request.urlopen("https://rospyai.wixsite.com/rospy-ai/update-check-mod").read()
     c = str(f)
-    f3 = open('htmlupdate.txt', 'w')
+    f3 = open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\venv\\htmlupdate.txt', 'w')
     f3.write(c)
     f3.close()
     # --------------------------------------------
     w = f'<h2 class="font_2" style="font-size:28px">{app_version}</h2>'
-    f3 = open('htmlupdate.txt')
+    f3 = open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\venv\\htmlupdate.txt')
     text = f3.read()
     f3.close()
     c = text.count(w)

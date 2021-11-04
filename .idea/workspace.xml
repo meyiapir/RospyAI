@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.5)">
+    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.6)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/up_ch_log.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/htmlupdate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/htmlupdate.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/up_ch_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/up_ch_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/update_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/update_check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.botmainc" />
         <item itemvalue="Python.bot" />
         <item itemvalue="Python.maincode" />
         <item itemvalue="Python.update_check" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635898267364</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="RospyAi commit(0.6)">
+      <created>1636052157788</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1636052157788</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -311,6 +319,7 @@
     <MESSAGE value="RospyAi commit(0.2)" />
     <MESSAGE value="RospyAi commit(0.3)" />
     <MESSAGE value="RospyAi commit(0.4)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.4)" />
+    <MESSAGE value="RospyAi commit(0.6)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.6)" />
   </component>
 </project>
