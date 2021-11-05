@@ -1,8 +1,10 @@
 # -*- coding: utf8 -*-
 import webbrowser
 import urllib3
-#from maincode import *
+from maincode import in_main_ai_mod
+import json
 import os
+import random
 
 # ------------------------------------------------------------------------------------
 def web_com_mod():
@@ -52,6 +54,76 @@ def web_com_mod():
     else:
         print('')
         #print('.net - error 404')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+def skils_lern(in_main_ai_mod):
+    name_skill = input('Название: ')
+    alias_skill = input('Данные: ')
+    do_skill = input('Варианты ответа: ')
+    do_name_skill = name_skill + '_do'
+
+# ----------------------------------------------------------------------------------
+
+    with open("C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\skill_data.json", "r", encoding="utf-8") as json_file:
+        file_j_skill = json.load(json_file)
+#    print('file_j_skill1: ', file_j_skill)
+
+# ----------------------------------------------------------------------------------
+
+    file_j_skill[name_skill] = alias_skill
+    file_j_skill[do_name_skill] = do_skill
+#    print(json.dumps(file_j_skill, indent=2, ensure_ascii=False))
+
+# ----------------------------------------------------------------------------------
+
+    with open("C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\skill_data.json", "w", encoding="utf-8") as json_file:
+        json.dump(file_j_skill, json_file, indent=4, ensure_ascii=False)
+
+# ----------------------------------------------------------------------------------
+    string_skill_mod_alias_1 = file_j_skill[name_skill]
+    string_skill_mod_alias_2 = string_skill_mod_alias_1.split(',')
+    print('ALIAS: OUT:', string_skill_mod_alias_2)
+
+
+    if any(element in in_main_ai_mod.main_input for element in name_skill):
+        string_skill_mod_do_1 = file_j_skill[do_name_skill]
+        string_skill_mod_2 = string_skill_mod_do_1.split(',')
+
+        random_skill_list = random.choice(string_skill_mod_2)
+        print(' ')
+        print(random_skill_list)
+
+# ***************************************************************************************************************
+# ***************************************************************************************************************
 
 
 
