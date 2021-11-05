@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.8)">
-      <change afterPath="$PROJECT_DIR$/MainCore/skill_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.10)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCore/example.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/commands_mods.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/commands_mods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/maincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/maincode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +78,7 @@
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.maincode">
+  <component name="RunManager" selected="Python.test">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RospyAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -322,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636069233434</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="RospyAi commit(0.10)">
+      <created>1636074810180</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1636074810180</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,6 +381,7 @@
     <MESSAGE value="RospyAi commit(0.6)" />
     <MESSAGE value="RospyAi commit(0.7)" />
     <MESSAGE value="RospyAi commit(0.8)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.8)" />
+    <MESSAGE value="RospyAi commit(0.10)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.10)" />
   </component>
 </project>
