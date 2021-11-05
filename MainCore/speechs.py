@@ -12,7 +12,7 @@ engine.setProperty('voice', ru_voice_id)
 
 
 def hello_module_ai():
-    hello_words = ['Привет! Как дела?', 'Здравствуй.', 'Я тут.', 'Доброе утро!', 'Приветик!', 'Хай', 'Я здесь.', 'Здравия желаю товарищ командир!', 'Hello!']
+    hello_words = ['Привет! Как дела?', 'Здравствуй.', 'Доброе утро!', 'Приветик!', 'Хай', 'Здравия желаю товарищ командир!', 'Hello!']
     random_hello_words = random.choice(hello_words)
 
     engine.say(random_hello_words)

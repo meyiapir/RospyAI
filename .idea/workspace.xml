@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.10)">
+    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.11)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCore/commands_mods.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/commands_mods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCore/maincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/maincode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/skill_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/skill_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/speechs.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/speechs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/htmlupdate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/htmlupdate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/up_ch_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/up_ch_log.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,6 +171,9 @@
       <module name="RospyAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MainCore" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -328,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636074810180</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="RospyAi commit(0.11)">
+      <created>1636075822995</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1636075822995</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -382,6 +396,7 @@
     <MESSAGE value="RospyAi commit(0.7)" />
     <MESSAGE value="RospyAi commit(0.8)" />
     <MESSAGE value="RospyAi commit(0.10)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.10)" />
+    <MESSAGE value="RospyAi commit(0.11)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.11)" />
   </component>
 </project>

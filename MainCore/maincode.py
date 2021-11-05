@@ -227,44 +227,6 @@ def commands_mod():
     else:
         not_un_mod()
 
-def skils_lern(main_input):
-    name_skill = input('Название: ')
-    alias_skill = input('Данные: ')
-    do_skill = input('Варианты ответа: ')
-    do_name_skill = name_skill + '_do'
-
-    # ----------------------------------------------------------------------------------
-
-    with open("C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\skill_data.json", "r",
-              encoding="utf-8") as json_file:
-        file_j_skill = json.load(json_file)
-    #    print('file_j_skill1: ', file_j_skill)
-
-    # ----------------------------------------------------------------------------------
-
-    file_j_skill[name_skill] = alias_skill
-    file_j_skill[do_name_skill] = do_skill
-    #    print(json.dumps(file_j_skill, indent=2, ensure_ascii=False))
-
-    # ----------------------------------------------------------------------------------
-
-    with open("C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\skill_data.json", "w",
-              encoding="utf-8") as json_file:
-        json.dump(file_j_skill, json_file, indent=4, ensure_ascii=False)
-
-    # ----------------------------------------------------------------------------------
-    string_skill_mod_alias_1 = file_j_skill[name_skill]
-    string_skill_mod_alias_2 = string_skill_mod_alias_1.split(',')
-    print('ALIAS: OUT:', string_skill_mod_alias_2)
-
-    if any(element in main_input for element in name_skill):
-        string_skill_mod_do_1 = file_j_skill[do_name_skill]
-        string_skill_mod_2 = string_skill_mod_do_1.split(',')
-
-        random_skill_list = random.choice(string_skill_mod_2)
-        print(' ')
-        print(random_skill_list)
-
 
 
 # ***************************************************************************************************************
@@ -284,14 +246,13 @@ def skils_lern(main_input):
 
 
 def start_main():
-    # starting_mod()
-    # sl(1.5)
-    # print(' \n'*50)
-    # print('------------------[ RospyAI ]-------------------')
+    starting_mod()
+    sl(1.5)
+    print(' \n'*50)
+    print('------------------[ RospyAI ]-------------------')
     while True:
         in_main_ai_mod()
-        skils_lern(main_input)
         commands_mod()
         if main_input == 'Exit':
             exit(0)
-start_main()
+# start_main()

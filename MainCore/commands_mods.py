@@ -1,9 +1,7 @@
 # -*- coding: utf8 -*-
 import webbrowser
 import urllib3
-from maincode import in_main_ai_mod
 import json
-import os
 import random
 
 # ------------------------------------------------------------------------------------
