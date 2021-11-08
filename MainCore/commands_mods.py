@@ -4,6 +4,8 @@ import urllib3
 import json
 import random
 import time
+import bs4
+import requests
 
 # ------------------------------------------------------------------------------------
 def web_com_mod():
@@ -81,7 +83,14 @@ def pass_gen_mod():
 
 
 
+def ip_log_mod():
+    s = requests.get('https://2ip.ua/ru/')
 
+    b = bs4.BeautifulSoup(s.text, "html.parser")
+
+    a = b.select(" .ipblockgradient .ip")[0].getText()
+    print(' ')
+    print('Твой IP адрес: ', a)
 
 
 
