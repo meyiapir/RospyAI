@@ -76,6 +76,7 @@ def run_mod():
     engine.say(random_list_run)
     print('LOG | Rospy: run_mod: ', random_list_run)
     engine.runAndWait()
+
 def bye_mod():
     list_bye = ['Ладно, пока.', 'Прощай, ты был мне другом.', 'До свидания.', 'Goodbye.', 'Пока.', 'Да встречи, пока.', 'В следующий раз увидимся. Пока.']
     random_list_bye = random.choice(list_bye)

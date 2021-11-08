@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.12)">
+    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.13)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/commands_mods.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/commands_mods.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCore/maincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/maincode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCore/whats_up.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/whats_up.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/htmlupdate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/htmlupdate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/speechs.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/speechs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/up_ch_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/up_ch_log.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -361,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636326568986</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="RospyAi commit(0.13)">
+      <created>1636398898383</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1636398898383</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +424,18 @@
     <MESSAGE value="RospyAi commit(0.10)" />
     <MESSAGE value="RospyAi commit(0.11)" />
     <MESSAGE value="RospyAi commit(0.12)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.12)" />
+    <MESSAGE value="RospyAi commit(0.13)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.13)" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/MainCore/maincode.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

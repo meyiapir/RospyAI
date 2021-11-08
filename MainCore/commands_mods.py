@@ -3,6 +3,7 @@ import webbrowser
 import urllib3
 import json
 import random
+import time
 
 # ------------------------------------------------------------------------------------
 def web_com_mod():
@@ -57,7 +58,26 @@ def web_com_mod():
 
 
 
-
+def pass_gen_mod():
+    print(' \n'*5)
+    print('----------WELCOME!----------')
+    print('-----PASS GENERATOR V. 1-----')
+    time.sleep(1)
+    print()
+    chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+    number = input('количество паролей: ' + "\n")
+    length = input('длина пароля: ' + "\n")
+    number = int(number)
+    length = int(length)
+    for p in range(number):
+        password = ''
+        for i in range(length):
+            password += random.choice(chars)
+        print(password)
+    print()
+    print('**********************************************')
+    print(' ')
+    print(' ')
 
 
 
