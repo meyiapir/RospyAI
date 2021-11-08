@@ -101,13 +101,13 @@ def pohval_mod():
     engine.say('А как тебя зовут?')
     engine.runAndWait()
     pohval_name = input('А как тебя зовут? ')
-    with open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\kompl.txt') as file:
+    with open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\doc\\kompl.txt') as file:
         array2 = [row.strip() for row in file]
     random_array2 = random.choice(array2)
     print(' ')
-    summ_pohval_mod = pohval_name + ' ты самый ' + random_array2 + '.'
+    summ_pohval_mod = pohval_name + '. ты самый ' + random_array2 + '.'
     engine.say(summ_pohval_mod)
-    print('LOG | Rospy: pohval_mod: ', pohval_name, 'ты самый', random_array2 + '.')
+    print('LOG | Rospy: pohval_mod: ', pohval_name + ', ты самый', random_array2 + '.')
     engine.runAndWait()
     print(' ')
     print(' ')

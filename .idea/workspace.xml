@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.15)">
-      <change afterPath="$PROJECT_DIR$/MainCore/kompl.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.16)">
       <change beforePath="$PROJECT_DIR$/MainCore/commands_mods.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/commands_mods.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainCore/maincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/maincode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/up_ch_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/up_ch_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/skill_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/doc/skill_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/skill_do_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/doc/skill_do_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/speechs.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/speechs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/testing.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/doc/testing.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainCore/whats_up.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/doc/whats_up.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +76,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\meyap\PycharmProjects\RospyAI\MainCore\doc" />
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI\venv" />
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI\MainCore" />
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI" />
@@ -389,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636400919537</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="RospyAi commit(0.16)">
+      <created>1636402992915</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1636402992915</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -448,7 +457,8 @@
     <MESSAGE value="RospyAi commit(0.13)" />
     <MESSAGE value="RospyAi commit(0.14)" />
     <MESSAGE value="RospyAi commit(0.15)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.15)" />
+    <MESSAGE value="RospyAi commit(0.16)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.16)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

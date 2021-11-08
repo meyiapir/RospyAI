@@ -43,7 +43,7 @@ def what_can_mod():
     print(' ')
 
 def what_up_mod():
-    with open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\whats_up.txt', encoding="utf8") as file:
+    with open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\doc\\whats_up.txt', encoding="utf8") as file:
         array1 = [row.strip() for row in file]
     random_array1 = random.choice(array1)
     print(' ')
