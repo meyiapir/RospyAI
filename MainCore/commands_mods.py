@@ -6,6 +6,8 @@ import random
 import time
 import bs4
 import requests
+import pyttsx3
+engine = pyttsx3.init()
 
 # ------------------------------------------------------------------------------------
 def web_com_mod():
@@ -91,6 +93,26 @@ def ip_log_mod():
     a = b.select(" .ipblockgradient .ip")[0].getText()
     print(' ')
     print('Твой IP адрес: ', a)
+
+
+
+def pohval_mod():
+    print(' ')
+    engine.say('А как тебя зовут?')
+    engine.runAndWait()
+    pohval_name = input('А как тебя зовут? ')
+    with open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\MainCore\\kompl.txt') as file:
+        array2 = [row.strip() for row in file]
+    random_array2 = random.choice(array2)
+    print(' ')
+    summ_pohval_mod = pohval_name + ' ты самый ' + random_array2 + '.'
+    engine.say(summ_pohval_mod)
+    print('LOG | Rospy: pohval_mod: ', pohval_name, 'ты самый', random_array2 + '.')
+    engine.runAndWait()
+    print(' ')
+    print(' ')
+    print(' ')
+
 
 
 
