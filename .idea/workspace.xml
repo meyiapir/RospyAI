@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.18)">
+    <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.19)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainCore/maincode.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainCore/maincode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/htmlupdate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/htmlupdate.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/up_ch_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/up_ch_log.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +80,7 @@
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.test">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="RospyAI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -409,7 +410,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636574562656</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="RospyAi commit(0.19)">
+      <created>1636782716844</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1636782716844</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -471,6 +479,7 @@
     <MESSAGE value="RospyAi commit(0.16)" />
     <MESSAGE value="RospyAi commit(0.17)" />
     <MESSAGE value="RospyAi commit(0.18)" />
-    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.18)" />
+    <MESSAGE value="RospyAi commit(0.19)" />
+    <option name="LAST_COMMIT_MESSAGE" value="RospyAi commit(0.19)" />
   </component>
 </project>
