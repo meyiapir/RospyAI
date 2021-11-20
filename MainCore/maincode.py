@@ -1,6 +1,6 @@
 from time import sleep as sl
 from speechs import *
-import pyttsx3                  # Модуль импортов
+import pyttsx3                # Модуль импортов
 from commands_mods import *
 import urllib3
 import os
