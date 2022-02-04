@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b43d9527-6d59-44ad-b581-2f3796bd6634" name="Changes" comment="RospyAi commit(0.20)">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCore/doc/com.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainCore/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/htmlupdate.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/htmlupdate.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/up_ch_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/venv/up_ch_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/update_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/update_check.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +42,15 @@
     <option name="defaultAccountId" value="6e6783b3-3241-493b-9e37-22bdeeaf9f3b" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/venv/update_check.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MainCore/speechs.py" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MainCore/maincode.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/venv/main.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MainCore/speechs.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/venv/guipass.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MainCore/maincode.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/venv/update_check.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/IDEAS/TODO" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1zmrovRzldHTN4LlojJ3mg1jUX1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,14 +71,17 @@
     <property name="TODO_SCOPE" value="Project Files" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ASRospy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../crogsparcer" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\meyap\PycharmProjects\RospyAI\MainCore" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI\MainCore\doc" />
       <recent name="C:\Users\meyap\PycharmProjects\RospyAI\venv" />
@@ -227,15 +237,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.botmainc" />
-        <item itemvalue="Python.bot" />
-        <item itemvalue="Python.update_check" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -452,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637326703080</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="RospyAi commit(0.20)">
+      <created>1637436842095</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1637436842095</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -495,7 +503,6 @@
         <entry key="107a7106-898b-462b-ac36-6e9e56f4521d" value="TOOL_WINDOW" />
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

@@ -31,7 +31,7 @@ def upd_check_mod():
         f3.write(c)
         f3.close()
         # --------------------------------------------
-        w = f'<h2 class="font_2" style="font-size:28px">{app_version}</h2>'
+        w = f'<h2 class="font_2" style="font-size:28px;">{app_version}</h2>'
         f3 = open(f'C:\\Users\\meyap\\PycharmProjects\\RospyAI\\venv\\htmlupdate.txt')
         text = f3.read()
         f3.close()
