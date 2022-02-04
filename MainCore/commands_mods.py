@@ -64,8 +64,6 @@ def web_com_mod():
 
 def pass_gen_mod():
     print(' \n'*5)
-    print('----------WELCOME!----------')
-    print('-----PASS GENERATOR V. 1-----')
     time.sleep(1)
     print()
     chars = '+-/*!&$#?=@<>abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
